@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "description": "iwf-daily-newspaper",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc && tsc-alias",
+    "start:prod": "node -r tsconfig-paths/register   dist/src/app.js"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "pdf-lib": "^1.17.1",
+    "resend": "^4.7.0",
+    "tsconfig-paths": "^4.2.0",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/xml2js": "^0.4.14",
+    "nodemon": "^3.1.10",
+    "tsc-alias": "^1.8.16",
+    "typescript": "^5.8.3"
+  },
+  "license": "MIT"
+}
